@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/SungKyeol/Desktop/github/topquant-ksk/src/topquant_ksk/**)"
+      "Read(//c/Users/SungKyeol/Desktop/github/topquant-ksk/src/topquant_ksk/**)",
+      "Bash(pip show:*)",
+      "Bash(find C:ProgramDataanaconda3Libsite-packagestopquant_kskdb -type f -name *.py)"
     ]
   }
 }
